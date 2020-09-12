@@ -25,3 +25,18 @@ export const Container = styled.div`
   border-radius: 20px;
 
 `;
+
+export const Price = styled.div`
+
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  margin-top: 20px;
+  color: #004d61;
+
+  span {
+    margin-top: 4px;
+    font-weight: bold;
+    font-size: 28px;
+  }
+`;
